@@ -35,5 +35,3 @@ $ open NotesApp.html
 ## <a name="User_Stories">User Stories</a>
 
 ## <a name="Further_Improvements">Further Improvements</a>
-
-User Stories](#User_Stories) | [Further improvements](#Further_Improvements)
