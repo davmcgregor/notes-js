@@ -10,7 +10,7 @@ describe('Note Controller', () => {
       var noteList = new NoteList()
       var update = new ChangeHTML(noteList)
       update.insertNoteList();
-      expect(document.getElementById("app").innerHTML).includes('<ul><li><div>Favourite drink: sel</div></li></ul>')
+      expect(document.getElementById("app").innerHTML).includes('<ul><li><div id="0"><a href="#note/0">Favourite drink: sel</a></div></li></ul>')
     })
   })
 })
