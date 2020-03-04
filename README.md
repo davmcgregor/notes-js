@@ -56,5 +56,5 @@ So I can see all the information in the note
 ```
 
 ## <a name="Further_Improvements">Further Improvements</a>
-* Sytling
+* Add styling
 * Add further CRUD functionality
