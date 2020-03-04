@@ -4,7 +4,7 @@
 
 #### Technologies: Javascript, Jasmine, HTML, CSS 
 
-[Task](#Task) | [Installation Instructions](#Installation) | [Functional_Description](#Functional_Description) | [User Stories](#User_Stories) | [Further improvements](#Further_Improvements)
+[Task](#Task) | [Installation Instructions](#Installation) | [Functional Description](#Functional_Description) | [User Stories](#User_Stories) | [Further improvements](#Further_Improvements)
 
 ![insert_screenshot](screenshot.jpg)
 
@@ -32,6 +32,12 @@ $ open NotesApp.html
 
 ## <a name="Functional_Description">Functional Description</a>
 
+The app has the following specifications:
+1. A user can write a note
+2. A user can write multiple notes
+3. Notes are saved to a list
+4. Clicking on a saved note will show the full note text  
+
 ## <a name="User_Stories">User Stories</a>
 ```
 As a programmer
@@ -50,3 +56,5 @@ So I can see all the information in the note
 ```
 
 ## <a name="Further_Improvements">Further Improvements</a>
+* Sytling
+* Add further CRUD functionality
