@@ -1,12 +1,14 @@
 ### [Makers Academy](http://www.makersacademy.com) - Week 7 Pair programming challenge 
 
-# Notes app 📝
+# [Notes app](http://icy-knowledge.surge.sh/) 📝
 
-#### Technologies: Javascript, Jasmine, HTML, CSS 
+#### Technologies: Javascript, HTML, CSS, Surge 
 
 [Task](#Task) | [Installation Instructions](#Installation) | [Functional Description](#Functional_Description) | [User Stories](#User_Stories) | [Further improvements](#Further_Improvements)
 
-![insert_screenshot](screenshot.jpg)
+![screenshot](screenshot.jpg)
+
+This app is hosted at: http://icy-knowledge.surge.sh/
 
 ## <a name="Task">The Task</a>
 
@@ -21,13 +23,11 @@ This challenge is the sixth afternoon pair programming challenge at [Makers Acad
 $ git clone git@github.com:davmcgregor/notes-js.git
 $ cd notes-js
 ```
-2. Run jasmine for tests and coverage
-```
-$ open SpecRunner.html
-```
+2. Test were written using test helper code in spec/JavaScriptTesting.js
+
 3. Run the app on a local server and use on the broswer:
 ```
-$ open NotesApp.html
+$ open index.html
 ```
 
 ## <a name="Functional_Description">Functional Description</a>
@@ -56,5 +56,5 @@ So I can see all the information in the note
 ```
 
 ## <a name="Further_Improvements">Further Improvements</a>
-* Add styling
-* Add further CRUD functionality
+* Add further styling
+* Add CRUD functionality

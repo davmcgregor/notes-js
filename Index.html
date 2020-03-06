@@ -4,14 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"></style>
     <title> Notes App </title>
     <h1> Notes App </h1>
   </head>
   <body>
     <form type="text" id="text" method="POST" action="note/create">
       <textarea id="textarea" rows="5" cols="50"></textarea>
-      <p><button type="submit" value="Create">Create Note</button></p>
+      <p><button type="submit" value="Create" class="btn btn-primary btn-lg" id="create-button">Create Note</button></p>
     </form>
+      <p><button type="submit" value="Create" class="btn btn-warning btn-lg" id="background-color">Change Background</button></p>
+      <p><button type="submit" value="Create" class="btn btn-warning btn-lg" id="font-color">Change Font Colour</button></p>
+      <p><button type="submit" value="Create" class="btn btn-danger btn-lg" id="bee-movie">Bee Movie</button></p>
+
+
+
 
     <div id="app"></div>
     <h2 style="padding-top: 10px;">Full Note</h2>
@@ -21,6 +29,7 @@
     <script src='lib/note-list-model.js'></script>
     <script src='lib/note-list-view.js'></script>
     <script src='lib/single-note-view.js'></script>
+    <script src='lib/note-styles.js'></script>
     <script src='lib/note-controller.js'></script>
 
   </body>
